@@ -15,20 +15,23 @@
         android:hint="@string/add_name"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:textColorLink="#501616"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.606"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintVertical_bias="0.369" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/editText2"
         android:layout_width="286dp"
         android:layout_height="46dp"
         android:layout_marginTop="36dp"
+        android:autoSizeMaxTextSize="?attr/dialogPreferredPadding"
         android:ems="10"
         android:hint="@string/add_name"
         android:inputType="textPersonName"
+        android:longClickable="false"
+        android:nextFocusDown="@id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.663"
         app:layout_constraintStart_toStartOf="parent"
@@ -60,7 +63,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="sendMessage"
+        android:shadowColor="@color/amber_300"
         android:text="Button"
+        android:textColor="@color/purple_700"
         app:layout_constraintTop_toBottomOf="@+id/editText"
         tools:layout_editor_absoluteX="57dp" />
 </android.support.constraint.ConstraintLayout>
