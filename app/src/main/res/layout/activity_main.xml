@@ -65,6 +65,7 @@
         android:onClick="sendMessage"
         android:background="@color/amber_300"
         android:text="Button"
+        android:textStyle="bold"
         android:textColor="@color/purple_700"
         app:layout_constraintTop_toBottomOf="@+id/editText"
         tools:layout_editor_absoluteX="57dp" />
