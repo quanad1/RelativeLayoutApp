@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RelativeLayoutApp</string>
+    <string name="add_name">\"Enter a name\"</string>
+    <string name="button_send">Show</string>
+    <string name="first_name">\"Give your name\"</string>
+    <string name="second_name">\"Give a second name\"</string>
+</resources>
