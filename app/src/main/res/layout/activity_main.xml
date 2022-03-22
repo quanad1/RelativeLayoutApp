@@ -63,7 +63,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="sendMessage"
-        android:shadowColor="@color/amber_300"
+        android:background="@color/amber_300"
         android:text="Button"
         android:textColor="@color/purple_700"
         app:layout_constraintTop_toBottomOf="@+id/editText"
