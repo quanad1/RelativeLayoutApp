@@ -15,13 +15,14 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun sendMessage(view: View) {
-
-        val editText2 = findViewById<EditText>(R.id.editText2)
         val editText = findViewById<EditText>(R.id.editText)
-        val message = editText.text.toString()
+        val editText2 = findViewById<EditText>(R.id.editText2)
+        val message = editText.text.toString()+" "+editText2.text.toString()
         val intent = Intent(this, DisplayMessageActivity::class.java).apply {
             putExtra(EXTRA_MESSAGE, message)
         }
         startActivity(intent)
+
+
     }
 }
